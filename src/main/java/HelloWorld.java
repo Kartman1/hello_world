@@ -8,5 +8,6 @@ public class HelloWorld {
 
         System.out.println("new command4");
         System.out.println("new command 5");
+        System.out.println("new command 6");
     }
 }
