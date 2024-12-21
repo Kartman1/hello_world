@@ -5,5 +5,7 @@ public class HelloWorld {
         System.out.println("new command");
         System.out.println("new command 2");
         System.out.println("new command3");
+
+        System.out.println("new command4");
     }
 }
