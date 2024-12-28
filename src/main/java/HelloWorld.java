@@ -10,6 +10,9 @@ public class HelloWorld {
         float a6 = 1.00f;
         double a7 = 1.00;
 
+        long number = 365 * 24 * 60 * 60;
+        System.out.println(number);
+
 /*        String name1 = "Igor";
         String name2 = "Igore";
         System.out.println(name1.equals(name2));
@@ -35,10 +38,21 @@ public class HelloWorld {
         String joinString = String.join("", "Соединяем",  " Эти", " Строки");
         System.out.println(joinString);
 
+        ~!@#$%^&
         //
 */
+        float temp = 31/4f;
 
-        System.out.println(1f / 3f);
+        System.out.println(temp);
+        float quarterOfMayDayCount = Math.round(31/4f * 10.0f) / 10.0f;
+ //       float quarterOfMayDayCount = Math.round(temp*100) / 100;
+        float quarterOfMayDayCoun = 7.8f;
+
+        public int multiply(int a, int b){
+            a *= b;
+            return b;
+        }
+        System.out.println(multiply(777, 412));
         
 
     }
