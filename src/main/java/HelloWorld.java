@@ -48,11 +48,12 @@ public class HelloWorld {
  //       float quarterOfMayDayCount = Math.round(temp*100) / 100;
         float quarterOfMayDayCoun = 7.8f;
 
-        public int multiply(int a, int b){
-            a *= b;
-            return b;
-        }
-        System.out.println(multiply(777, 412));
+
+
+        char chsimvol = '5';
+        int numb = 0;
+        numb = chsimvol - '0';
+        System.out.println(numb);
         
 
     }
