@@ -21,7 +21,10 @@ public class HelloWorld {
         System.out.println(isInvisibleName(" \n"));
         System.out.println(makeNameClean(" Dima "));
         System.out.println(makeHalfOfName("Aphanasiy"));
-        String hello = "Hello";
+        String hello = "12345";
+        hello = hello.replaceAll("3", "");
+        System.out.println(hello);
+
 
         System.out.println("John".equals("Doe"));
 

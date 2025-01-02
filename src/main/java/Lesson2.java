@@ -1,4 +1,4 @@
-public class NameEncoderDecoder{
+/*public static class NameEncoderDecoder{
     public String encode(String name){
         String result = name
                 .replace("e", "1")
@@ -29,4 +29,4 @@ public class NameEncoderDecoder{
 
     }
 
-}
+}*/
