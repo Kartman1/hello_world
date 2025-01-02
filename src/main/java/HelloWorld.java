@@ -1,7 +1,30 @@
 public class HelloWorld {
+
+    public static boolean isInvisibleName(String names1){
+        return names1.strip().isEmpty();
+    }
+
+    public static String makeNameClean(String name){
+        String result = name.strip();
+        result = "CLEAN" + result + "CLEAN";
+        return result;
+    }
+
+    public static String makeHalfOfName(String name){
+        int lengt = name.length() / 2;
+        String result = name.substring(0,lengt);
+        return result;
+    }
+
     public static void main(String[] args) {
-        System.out.println("He llo World");
+        System.out.println("Hello World");
+        System.out.println(isInvisibleName(" \n"));
+        System.out.println(makeNameClean(" Dima "));
+        System.out.println(makeHalfOfName("Aphanasiy"));
         String hello = "Hello";
+
+        System.out.println("John".equals("Doe"));
+
         int a1 = 10;
         char a2 = 'a';
         byte a3 = 10;
@@ -54,6 +77,9 @@ public class HelloWorld {
         int numb = 0;
         numb = chsimvol - '0';
         System.out.println(numb);
+//        String names;
+
+
         
 
     }
