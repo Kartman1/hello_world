@@ -18,12 +18,12 @@ public class NameEncoderDecoder{
                 .replace("4", "o")
                 .replace("5", "a");
         result = result.replace("NOTFORYOU", "");
-        result = result.replaceAll("(?i)YESNOTFORYOU", "");
         result = result.replace("YES", "");
         return result;
     }
 
     public static void main(String[] args){
+
 
 
     }
