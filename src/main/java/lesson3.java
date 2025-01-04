@@ -25,5 +25,15 @@ public class lesson3 {
         System.out.println("Arrays.toString(fruits) = " + Arrays.toString(fruits));
 
         System.out.println("fruits.length = " + fruits.length);
+
+        //Test multidimentional arrays
+        String[][] keyboard = {
+                {"1", "2", "3"},
+                {"3", "4", "5"},
+                {"6", "7", "8"}
+        };
+        System.out.println("Arrays.toString(keyboard) = " + Arrays.toString(keyboard[0]));
+
+
     }
 }
