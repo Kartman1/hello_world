@@ -64,6 +64,17 @@ public class TestReadFromSysteminittoArray {
         return result;
     }
 
+    public static boolean isHangarOk(int side1, int side2, int price){
+        boolean result = false;
+        if((side1 > (side2)) && (side1 <= (side2 *2))){
+            result = true;
+        }else if((side2 > (side1)) && (side2 <= (side1 *2))){
+            result = true;
+        }
+
+        return ((side1 * side2) > 1500) && (result) && ((price / (side1 * side2)) < 1000);
+    }
+
     public static void main(String[] args) {
         int[] numbers = new int[3];
 //        String[] names = {
@@ -89,6 +100,7 @@ public class TestReadFromSysteminittoArray {
         numbers[2] = scanner.nextInt();
 */
 //        calculateMaxPower();
+        System.out.println("isHangarOk() = " + isHangarOk(78,101,173316));
         System.out.println("getMyPrizes() = " + getMyPrizes(207));
 //        System.out.println("Arrays.toString() = " + Arrays.toString(numbers));
     }
